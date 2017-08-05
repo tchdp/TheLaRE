@@ -8,7 +8,7 @@ window.addEventListener('load', vrHomePage);
 vrHomePage.on('ready', function(events){
   vrHomePage.addHotspot('creating-hotspot-1', {
     pitch: 200,
-    yaw: 60,
+    yaw: 180,
     radius: 0.10,
     distance: 1
   });
