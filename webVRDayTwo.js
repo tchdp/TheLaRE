@@ -2,6 +2,7 @@ var vrHomePage = vRViewPlayer('#meiayeshadocs', {
     image: 'pic1.jpg',
     is_stereo: false,
     is_autopan_off: true,
+    is_yaw_only: true
 });
 window.addEventListener('load', vrHomePage);
 
@@ -19,7 +20,8 @@ vrHomePage.on('click', function(event){
   if (event.id == 'creating-hotspot-1'){
     vrHomePage.setContent({
         image: 'pic2.jpg',
-        is_stereo: false
+        is_stereo: false,
+        is_yaw_only: true
     });
   }
 });
